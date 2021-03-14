@@ -11,6 +11,7 @@
 		92AB378925FEBB6F00DCB2B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AB378825FEBB6F00DCB2B5 /* ContentView.swift */; };
 		92AB378B25FEBB7000DCB2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AB378A25FEBB7000DCB2B5 /* Assets.xcassets */; };
 		92AB378E25FEBB7000DCB2B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AB378D25FEBB7000DCB2B5 /* Preview Assets.xcassets */; };
+		C74BDA7725FEC82B00933461 /* NetworkRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74BDA7625FEC82B00933461 /* NetworkRequester.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		92AB378A25FEBB7000DCB2B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92AB378D25FEBB7000DCB2B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92AB378F25FEBB7000DCB2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74BDA7625FEC82B00933461 /* NetworkRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,8 @@
 		92AB378525FEBB6F00DCB2B5 /* iOSWebinar2020 */ = {
 			isa = PBXGroup;
 			children = (
-				92AB378625FEBB6F00DCB2B5 /* iOSWebinar2020App.swift */,
-				92AB378825FEBB6F00DCB2B5 /* ContentView.swift */,
-				92AB378A25FEBB7000DCB2B5 /* Assets.xcassets */,
+				C74BDA7225FEC72A00933461 /* SupportingFiles */,
+				C74BDA7425FEC74000933461 /* Sources */,
 				92AB378F25FEBB7000DCB2B5 /* Info.plist */,
 				92AB378C25FEBB7000DCB2B5 /* Preview Content */,
 			);
@@ -67,6 +68,32 @@
 				92AB378D25FEBB7000DCB2B5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C74BDA7225FEC72A00933461 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				92AB378625FEBB6F00DCB2B5 /* iOSWebinar2020App.swift */,
+				92AB378825FEBB6F00DCB2B5 /* ContentView.swift */,
+				92AB378A25FEBB7000DCB2B5 /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		C74BDA7425FEC74000933461 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C74BDA7525FEC75400933461 /* Networking */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C74BDA7525FEC75400933461 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C74BDA7625FEC82B00933461 /* NetworkRequester.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +167,7 @@
 			files = (
 				92AB378925FEBB6F00DCB2B5 /* ContentView.swift in Sources */,
 				92AB378725FEBB6F00DCB2B5 /* iOSWebinar2020App.swift in Sources */,
+				C74BDA7725FEC82B00933461 /* NetworkRequester.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
