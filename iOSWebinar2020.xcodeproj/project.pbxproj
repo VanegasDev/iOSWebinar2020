@@ -52,10 +52,8 @@
 		92AB378525FEBB6F00DCB2B5 /* iOSWebinar2020 */ = {
 			isa = PBXGroup;
 			children = (
-				92AB378625FEBB6F00DCB2B5 /* iOSWebinar2020App.swift */,
-				92AB378825FEBB6F00DCB2B5 /* ContentView.swift */,
-				92AB378A25FEBB7000DCB2B5 /* Assets.xcassets */,
-				92AB378F25FEBB7000DCB2B5 /* Info.plist */,
+				C74BDA7225FEC72A00933461 /* SupportingFiles */,
+				C74BDA7425FEC74000933461 /* Sources */,
 				92AB378C25FEBB7000DCB2B5 /* Preview Content */,
 			);
 			path = iOSWebinar2020;
@@ -67,6 +65,32 @@
 				92AB378D25FEBB7000DCB2B5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C74BDA7225FEC72A00933461 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				92AB378625FEBB6F00DCB2B5 /* iOSWebinar2020App.swift */,
+				92AB378825FEBB6F00DCB2B5 /* ContentView.swift */,
+				92AB378A25FEBB7000DCB2B5 /* Assets.xcassets */,
+				92AB378F25FEBB7000DCB2B5 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		C74BDA7425FEC74000933461 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C74BDA7525FEC75400933461 /* Networking */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C74BDA7525FEC75400933461 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
